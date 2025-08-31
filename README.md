@@ -77,7 +77,7 @@ playwright install chromium
 Run the scraper (manual login required):
 
 ```sh
-python scrapper.py
+python scraper.py
 ```
 
 ### 4. Ingest and Clean Data

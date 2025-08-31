@@ -2,7 +2,7 @@
 
 ## Pipeline Overview
 
-1. **Scraping (`scrapper.py`)**
+1. **Scraping (`scraper.py`)**
    - Uses Playwright with stealth and anti-detection settings.
    - Human-like delays, mouse movements, and session persistence.
    - Extracts tweet data for specified hashtags.
@@ -41,7 +41,7 @@
 
 ## Extensibility
 
-- Add new hashtags in `scrapper.py`.
+- Add new hashtags in `scraper.py`.
 - Change aggregation frequency in `features_signals.py`.
 - Extend feature engineering with additional NLP/statistical methods.
 
@@ -49,4 +49,3 @@
 
 - Manual login required for scraping.
 - Twitter/X anti-bot measures may change.
-- For very large datasets, consider partitioned Parquet outputs.
